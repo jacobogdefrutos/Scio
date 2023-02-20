@@ -21,9 +21,9 @@ azure_logger = logging.getLogger("azure.core.pipeline.policies.http_logging_poli
 azure_logger.setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
-ACCOUNTNAME='broilerflockmonitor'
-STORAGEACCOUNTURL= 'https://portal.azure.com/#view/Microsoft_Azure_Storage/ContainerMenuBlade/~/overview/storageAccountId/%2Fsubscriptions%2Fbf3be9cc-8ff3-4254-b9c0-47da8dacfee4%2FresourceGroups%2FBroilerFlockMonitoring%2Fproviders%2FMicrosoft.Storage%2FstorageAccounts%2Fbroilerflockmonitor/path/boegelund/etag/%220x8DA0753C99F9A17%22/defaultEncryptionScope/%24account-encryption-key/denyEncryptionScopeOverride~/false/defaultId//publicAccessVal/None'
-ACCOUNTKEY= 'xLkO+AFb4fWYZ4nsZ0lVR40G/4zQlY1Xf+UhnI92j9ZgWa6kpzJJGKiyLtZf0G1UOLRaMaCPXvw6LF3kS7NzCA=='
+ACCOUNTNAME=''
+STORAGEACCOUNTURL= ''
+ACCOUNTKEY= ''
 CONTAINERNAMEDOWN='boegelund'
 CONTAINERNAMEUP= 'keyframes-boegelund'
 BLOBNAME= 'dome_capture/video/24-28-fd-fe-f5-09/2022-07-01'
