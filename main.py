@@ -129,6 +129,8 @@ def main():
     #print('Number of dates: ',len(dates_list))
     final_list=list_by_dates(list,dates_list)
     extract(final_list,dates_list,blob_service_client_instance,container_client)
+    #Transform process. Keyframes extraction
+    transform()
     #Loading process
     container_client_load = blob_service_client_instance.get_container_client(CONTAINERNAMEUP)
     load_all(container_client_load)
